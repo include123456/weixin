@@ -10,6 +10,7 @@ public class BlueLightTest {
 		BlueLight light = BlueLight.build(CmdId.OPEN_LIGHT_PUSH, "Hello,WeChat!", (short) 0);
 		System.out.println(light);
 		System.out.println(Base64Kit.encode(light.toBytes()));
+        System.out.println(Base64Kit.encode(light.toBytes()));
 	}
 
 }
